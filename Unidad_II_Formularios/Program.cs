@@ -1,3 +1,4 @@
+using Unidad_II_Formularios.Productos;
 namespace Unidad_II_Formularios
 {
     internal static class Program
@@ -11,7 +12,7 @@ namespace Unidad_II_Formularios
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new frmPrincipalProductos());
         }
     }
 }
